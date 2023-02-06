@@ -1,6 +1,6 @@
 "use strict";
 
-console.log('Задача 1:');
+//  задача 1
 
 const cities = ["Москва", "Санкт-Петербург", "Воронеж"];
 
@@ -10,8 +10,7 @@ function anyCities(array) {
 
 console.log(anyCities(cities));
 
-console.log('-----------');
-console.log('Задача 2:');
+//  задача 2
 
 function showNumbers(number) {
     let integer = number % 5;
@@ -29,8 +28,7 @@ console.log(showNumbers(27));
 console.log(showNumbers(27.8));
 console.log(showNumbers(41.7));
 
-console.log('-----------');
-console.log('Задача 3:');
+//  задача 3
 
 function anyComputer(amount) { 
     let computer = amount; 
@@ -54,8 +52,7 @@ console.log(anyComputer(1048));
 
 
 
-console.log('-----------');
-console.log('Задача 4:');
+//  задача 4
 
 function thisNumber (num) {
     let count = 0;
@@ -75,8 +72,7 @@ thisNumber(2);
 thisNumber(3);
 thisNumber(5);
 
-console.log('-----------');
-console.log('Задача 5:');
+//  задача 5
 
 const arr = [7, 17, 1, 9, 1, 17, 56, 56, 23];
 const array = [56, 17, 17, 1, 23, 34, 23, 1, 8, 1];
@@ -103,6 +99,9 @@ function number(num1, num2) {
 };
 
 console.log(number(arr, array));
+
+//  задача 6
+
 
 function table(numb) {
     for (let j = 1; j <= numb; j++){  
